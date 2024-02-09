@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class GithubService {
 
-  GITHUB_PAT="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";
+  GITHUB_PAT="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";
   headers: HttpHeaders = new HttpHeaders({
     Authorization: `token ${this.GITHUB_PAT}`,
     Accept: 'application/vnd.github.v3+json',
