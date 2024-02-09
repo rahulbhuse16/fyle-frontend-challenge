@@ -1,0 +1,11 @@
+.card {
+    box-shadow: none !important;
+    border: 2px solid black;
+  }
+  
+  .content {
+    margin-bottom: 8px !important;
+  }
+  .top{
+    color: blue;
+  }

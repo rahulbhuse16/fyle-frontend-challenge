@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'git-app';
+  
+  username: string = '';
+  title = 'gith-app';
+
+  userSearchHandler(username: string) {
+    this.username = username;
+  }
 }
